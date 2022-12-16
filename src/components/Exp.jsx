@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Exp(props) {
   return (
@@ -21,9 +22,10 @@ function Exp(props) {
           veas mis proyectos
         </p>
 
-        <a href="/proyects" class="btn btn-primary">
+        {/* <a href="/proyects" class="btn btn-primary">
           Ver Proyectos
-        </a>
+        </a> */}
+        <Link to="/proyects" class="btn btn-primary"> Ver Proyectos </Link>
       </div>
     </div>
   );
