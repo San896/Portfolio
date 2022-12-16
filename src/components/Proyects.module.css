@@ -1,0 +1,12 @@
+.divp {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.title {
+    display: flex;
+    position: absolute;
+    bottom: 5rem;
+    left: 23rem;
+}
