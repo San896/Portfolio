@@ -1,12 +1,35 @@
-.divp {
-    display: flex;
-    flex-direction: column;
-
-}
-
 .title {
     display: flex;
     position: absolute;
-    bottom: 5rem;
-    left: 23rem;
+    justify-content: end;
+    right: 5rem;
+    top: 2rem;
+    background-color: rgba(128, 128, 128, 0);
+    width: 60rem;
+    border-bottom: 2px solid black ;
+   
+}
+
+
+
+.gh{
+    position: absolute;
+    left: 40rem;
+    color: black;
+}
+
+.gh:hover {
+    width: 2rem;
+    height: 2rem;
+}
+
+.ln{
+    position: absolute;
+    left: 45rem;
+    color: black;
+}
+
+.ln:hover {
+    width: 2rem;
+    height: 2rem;
 }

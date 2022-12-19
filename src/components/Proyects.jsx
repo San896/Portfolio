@@ -1,77 +1,110 @@
 import React from "react";
-import foto from "../images/foto.png";
-import create from "../images/create.png";
-import home from "../images/home.png";
 import Landing from "../images/Landing.png";
-import style from './Proyects.module.css'
+import LandAthenas from "../images/LandAthenas.png";
+ import style from "./Proyects.module.css";
+ import { BsGithub } from "react-icons/bs";
+ import { SiLinkedin } from "react-icons/si";
 
 
 function Proyects() {
   return (
-    <div className={style.divp}>
-    <div
-      id="carouselExampleInterval"
-      class="carousel slide"
-      data-bs-ride="carousel"
-      style={{display:'flex', width:'25rem', height:'15rem', position:'absolute', left:'15rem', bottom:'9rem'}}
-    >
-
-      <div class="carousel-inner">
-
-        <div class="carousel-item active" data-bs-interval="5000" style={{display:'flex'}}>
-          <img
-            src={Landing}
-            style={{ display: "flex",width: "25rem", height: "15rem", borderRadius:'30px' }}
-            alt="..."
-          /> 
-          {/* <h5>Titulos 1</h5>
-          <h2> ajsdbnkjbjsdb</h2> */}
-        </div>
-
-        <div class="carousel-item" data-bs-interval="5000">
-          <img
-            src={home}
-            style={{ display: "flex",width: "25rem", height: "15rem", borderRadius:'30px' }}
-            alt="..."
-          />
-          {/* <h5>Titulos 2</h5>
-          <h2> ajsdbnkjbjsdb</h2> */}
-        </div>
-
-        <div class="carousel-item">
-          <img
-            src={create}
-            style={{ display: "flex",width: "25rem", height: "15rem", borderRadius:'30px' }}
-            alt="..."
-          />
-                    {/* <h5>Titulos 3</h5>
-          <h2> ajsdbnkjbjsdb</h2> */}
-        </div>
-
-      </div>
+    <div>
+      <h1 className={style.title}>Proyects  </h1>
       
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="prev"
+      <div
+      
+        class="card mb-3"
+        style={{
+            display: "flex",
+            width: "50rem",
+          height: "10rem",
+          position: "absolute",
+          left: "12rem",
+          top: "25rem",
+          backgroundColor: "transparent",
+          
+        }}
+        
+        
       >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleInterval"
-        data-bs-slide="next"
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src={LandAthenas}
+              class="img-fluid rounded-start"
+              alt="..."
+              style={{ height: "9.9rem" }}
+            />
+          </div>
+          
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Athenas APP
+               <a href=""><BsGithub className={style.gh}/></a>
+                <a href=""><SiLinkedin className={style.ln}/></a></h5>
+              <p class="card-text">
+                {" "}
+                App sobre recetas de comida. Podes buscar varias recetas,
+                ordenarlas y filtrarlas, tambien podes crear tus propias
+                recetas.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Tecnologias: SQL | JavaScript | NodeJs | Express | Sequelize |
+                  React | Redux | CSS{" "}
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
+
+
+      <div
+        class="card mb-3"
+        style={{
+          display: "flex",
+          width: "50rem",
+          height: "10rem",
+          position: "absolute",
+          left: "12rem",
+          top: "10rem",
+          backgroundColor: "transparent",
+        }}
       >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div className={style.title}>
-        <h2>Food App</h2>
-    </div>
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src={Landing}
+              class="img-fluid rounded-start"
+              alt="..."
+              style={{ height: "9.9rem" }}
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Food App 
+              <a href=""><BsGithub className={style.gh}/></a>
+                <a href=""><SiLinkedin className={style.ln}/></a></h5>
+              <p class="card-text">
+                {" "}
+                App sobre recetas de comida. Podes buscar varias recetas,
+                ordenarlas y filtrarlas, tambien podes crear tus propias
+                recetas.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">
+                  Tecnologias: SQL | JavaScript | NodeJs | Express | Sequelize |
+                  React | Redux | CSS{" "}
+                </small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
