@@ -17,12 +17,11 @@ function Contact() {
     return (
       <div>
         <h1 className={style.title}>Contact Me</h1>
-        <h1>Here my My Email</h1>
-        <h1>LinkedIn && Github flechita</h1>
+        <h5 className={style.mail1}> My Email: sannlfernandez8@gmail.com </h5>
         <form onSubmit={handleSubmit} className={style.form}>
 
         <label htmlFor="email" className={style.labelmail}>
-          Email Address:
+          Your Email Address:
         </label>
         <input
           id="email"
@@ -48,7 +47,7 @@ function Contact() {
           field="message"
           errors={state.errors}
         />
-        <button type="submit" disabled={state.submitting}>
+        <button type="submit" disabled={state.submitting} className={style.btn}>
           Send
         </button>
       </form>
