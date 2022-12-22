@@ -18,7 +18,7 @@ function Proyects() {
         style={{
             display: "flex",
             width: "60rem",
-          height: "13rem",
+          height: "14rem",
           position: "absolute",
           left: "12rem",
           top: "22rem",
@@ -34,7 +34,7 @@ function Proyects() {
               src={LandAthenas}
               class="img-fluid rounded-start"
               alt="..."
-              style={{ height: "12.9rem" }}
+              style={{ height: "13.9rem" }}
             />
           </div>
           
@@ -48,7 +48,7 @@ function Proyects() {
                 Single Page Aplication(SPA). Cuenta con un e-commerce integrado, pasarela de pagos de mercado pago, autenticacion de usuarios con Auth0, dashboard para el administrador y usuarios. Creacion y organizacion de productos, imagenes en Cloudinary, reviews de los productos entre muchas mas funcionalidades, etc.
               </p>
               <p class="card-text">
-                <small class="text-muted">
+                <small class="text" style={{color: 'darkgrey'}}>
                   Tecnologias: SQL | JavaScript | NodeJs | Express | Sequelize |
                   React | Redux | CSS | Bootstrap  | Mercado Pago | Scrum | PostgreSQL {" "}
                 </small>
@@ -95,7 +95,7 @@ function Proyects() {
                 recetas.
               </p>
               <p class="card-text">
-                <small class="text-muted">
+                <small class="text" style={{color: 'darkgrey'}}>
                   Tecnologias: SQL | JavaScript | NodeJs | Express | Sequelize |
                   React | Redux | CSS{" "}
                 </small>

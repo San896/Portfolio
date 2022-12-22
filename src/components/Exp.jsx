@@ -31,7 +31,7 @@ function Exp(props) {
         {/* <a href="/proyects" class="btn btn-primary">
           Ver Proyectos
         </a> */}
-        <Link to="/proyects" class="btn btn-primary"> Ver Proyectos </Link>
+        <Link to="/proyects" class="btn btn-dark"> Ver Proyectos </Link>
       </div>
     </div>
     </div>
