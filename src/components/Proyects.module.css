@@ -25,7 +25,10 @@
 
 .ln{
     position: absolute;
+    height: 1.5rem;
+    width: 3rem;
     left: 45rem;
+    top: 15px;
     color: black;
 }
 
