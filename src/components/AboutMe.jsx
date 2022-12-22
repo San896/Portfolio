@@ -4,6 +4,9 @@ import foto from '../images/foto.png'
 
 function AboutMe() {
     return (
+      <div>
+        <h1 className={style.title}> Me </h1>
+      
 
 <div class="card mb-3" style={{width: '85rem', backgroundColor:'transparent', display: 'flex', position: 'absolute', left:'9rem', top:'10rem'}}>
 
@@ -22,6 +25,7 @@ function AboutMe() {
     <div class="col-md-4">
     <img src= { foto }  alt="..." style={{width:'20rem', height:'20rem', borderRadius:'999px'}}/>
   </div>
+</div>
 </div>
 </div>
     );

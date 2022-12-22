@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import style from './Exp.module.css'
 
 function Exp(props) {
   return (
-    <div class="card text-center" style={{display:'flex', width:'70rem', left:'9rem', top:'9rem', backgroundColor:'transparent'}}>
+    <div>
 
-      <div class="card-header">Experience</div>
+<h1 className={style.title}> Experience</h1>
+    
+    <div class="card text-center" style={{display:'flex', width:'70rem', left:'9rem', top:'10rem', backgroundColor:'transparent'}}>
+        
+
+      
 
       <div class="card-body">
 
@@ -27,6 +33,7 @@ function Exp(props) {
         </a> */}
         <Link to="/proyects" class="btn btn-primary"> Ver Proyectos </Link>
       </div>
+    </div>
     </div>
   );
 }

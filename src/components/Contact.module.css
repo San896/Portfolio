@@ -1,9 +1,38 @@
 .form {
     display: flex;
     position: absolute;
-    left: 35rem;
-    top: 20rem;
+    left: 33rem;
+    top: 15rem;
     flex-direction: column;
     gap: 1rem;
-    width: 20rem;
+    width: 25rem;
+    
+}
+
+.title {
+    display: flex;
+    position: absolute;
+    justify-content: end;
+    right: 5rem;
+    top: 2rem;
+    background-color: rgba(128, 128, 128, 0);
+    width: 60rem;
+    border-bottom: 2px solid black ;
+   
+}
+
+.labelmail{
+    font-weight: 700;
+}
+.msj {
+    font-weight: 700;
+    
+}
+
+.mail{
+    border-radius: 9px;
+}
+.boxmsj {
+    border-radius: 9px;
+    height: 10rem;
 }

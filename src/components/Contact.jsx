@@ -16,30 +16,32 @@ function Contact() {
 
     return (
       <div>
-        <h1>Contact Me</h1>
+        <h1 className={style.title}>Contact Me</h1>
         <h1>Here my My Email</h1>
         <h1>LinkedIn && Github flechita</h1>
         <form onSubmit={handleSubmit} className={style.form}>
 
-        <label htmlFor="email">
+        <label htmlFor="email" className={style.labelmail}>
           Email Address:
         </label>
         <input
           id="email"
           type="email" 
           name="email"
+          className={style.mail}
         />
         <ValidationError 
           prefix="Email" 
           field="email"
           errors={state.errors}
         />
-                <label htmlFor="email">
+                <label htmlFor="email" className={style.msj}>
           Message:
         </label>
         <textarea
           id="message"
           name="message"
+          className={style.boxmsj}
         />
         <ValidationError 
           prefix="Message" 
