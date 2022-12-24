@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 import { BsGithub } from 'react-icons/bs';
 import { SiLinkedin } from 'react-icons/si';
 import { FiFileText } from 'react-icons/fi';

@@ -3,7 +3,7 @@ import Landing from "../images/Landing.png";
 import LandAthenas from "../images/LandAthenas.png";
  import style from "./Proyects.module.css";
  import { BsGithub } from "react-icons/bs";
- import { SiLinkedin } from "react-icons/si";
+ //import { SiLinkedin } from "react-icons/si";
  import { RiGlobalFill, RiGlobalLine } from "react-icons/ri";
 
 
