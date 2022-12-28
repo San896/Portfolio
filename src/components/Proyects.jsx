@@ -17,10 +17,10 @@ function Proyects() {
         class="card mb-3"
         style={{
             display: "flex",
-            width: "60rem",
-          height: "14rem",
+            width: "70rem",
+          height: "13.5rem",
           position: "absolute",
-          left: "12rem",
+          left: "10rem",
           top: "22rem",
           backgroundColor: "transparent",
           
@@ -34,7 +34,7 @@ function Proyects() {
               src={LandAthenas}
               class="img-fluid rounded-start"
               alt="..."
-              style={{ height: "13.9rem" }}
+              style={{ height: "13.4rem" }}
             />
           </div>
           
@@ -66,11 +66,11 @@ function Proyects() {
         class="card mb-3"
         style={{
           display: "flex",
-          width: "60rem",
-          height: "11rem",
+          width: "70rem",
+          height: "12rem",
           position: "absolute",
-          left: "12rem",
-          top: "10rem",
+          left: "10rem",
+          top: "8rem",
           backgroundColor: "transparent",
         }}
       >
@@ -80,7 +80,7 @@ function Proyects() {
               src={Landing}
               class="img-fluid rounded-start"
               alt="..."
-              style={{ height: "10.9rem" }}
+              style={{ height: "11.9rem" }}
             />
           </div>
           <div class="col-md-8">

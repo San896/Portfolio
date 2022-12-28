@@ -5,7 +5,7 @@
     
     background-color: rgba(0, 0, 0, 0.705);
     bottom: 20px;
-    right: 30px;
+    right: 20px;
     gap: 1.5rem;
     border-radius: 100px;
     padding: 1rem;
@@ -14,8 +14,8 @@
 
 .links {
     display: flex;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.5rem;
+    height: 1.5rem;
      
 }
 .cv{

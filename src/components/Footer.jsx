@@ -11,7 +11,7 @@ function Footer(props) {
         <div className = {style.foot}>
             <a  href= 'https://www.linkedin.com/in/santiago-fernandez896/'>  < SiLinkedin className={style.links}/> </a>
             <a  href= 'https://github.com/San896'> < BsGithub className={style.links}/> </a>
-            <a  href= 'https://github.com/San896' className={style.cv}>< FiFileText className={style.links}/> cv </a>
+            <a  href= 'https://cvsan.netlify.app' className={style.cv}>< FiFileText className={style.links}/> cv </a>
         </div>
         
     );
