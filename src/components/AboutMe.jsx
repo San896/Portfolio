@@ -1,6 +1,8 @@
 import React from 'react';
 import style from './About.module.css'
 import foto from '../images/foto.png'
+import { AiOutlineArrowRight } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
 
 function AboutMe() {
     return (
@@ -27,6 +29,7 @@ function AboutMe() {
   </div>
 </div>
 </div>
+  <Link to= '/exp'><button className={style.btn}> continuar <AiOutlineArrowRight/> </button></Link>
 </div>
     );
 }

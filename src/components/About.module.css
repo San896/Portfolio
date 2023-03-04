@@ -16,3 +16,18 @@
     border-bottom: 2px solid black ;
    
 }
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid rgba(20, 20, 20, 0.733);
+    background-color: transparent;
+    
+    position: absolute;
+    left: 55rem;
+    bottom: 9rem;
+}
+
+.btn:hover{
+    width: 8rem;
+    height: 2rem ;
+}
