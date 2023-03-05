@@ -9,6 +9,17 @@
     border-bottom: 2px solid black ;
    
 }
+.title2 {
+    display: flex;
+    position: absolute;
+    justify-content: flex-end;
+    right: 5rem;
+    top: 55rem;
+    background-color: rgba(128, 128, 128, 0);
+    width: 60rem;
+    border-bottom: 1px solid black ;
+   
+}
 
 
 
@@ -35,4 +46,25 @@
 .ln:hover {
     width: 2rem;
     height: 2rem;
+}
+
+.btn {
+    border-radius: 5px;
+    border: 1px solid rgba(20, 20, 20, 0.733);
+    background-color: transparent;
+    
+}
+
+.btn:hover{
+    width: 8rem;
+    height: 2rem ;
+}
+
+.divbtn{
+    display: flex;
+    position: absolute;
+    
+    left: 68rem;
+    top: 51rem;
+    margin-bottom: 2rem;
 }

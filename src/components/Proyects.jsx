@@ -6,6 +6,9 @@ import Wheather from '../images/wheather.png'
  import { BsGithub } from "react-icons/bs";
  //import { SiLinkedin } from "react-icons/si";
  import { RiGlobalFill, RiGlobalLine } from "react-icons/ri";
+ import { AiOutlineArrowRight } from 'react-icons/ai';
+import { Link } from 'react-router-dom';
+
 
 
 function Proyects() {
@@ -115,7 +118,7 @@ function Proyects() {
       style={{
           display: "flex",
           width: "70rem",
-        height: "13.5rem",
+        height: "12.1rem",
         position: "absolute",
         left: "10rem",
         top: "37.8rem",
@@ -131,18 +134,18 @@ function Proyects() {
             src={Wheather}
             class="img-fluid rounded-start"
             alt="..."
-            style={{ height: "13.4rem" }}
+            style={{ height: "12rem" }}
           />
         </div>
         
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Athenas APP
-             <a href="https://github.com/MATarg81/proyecto-final"><BsGithub className={style.gh}/></a>
+             <a href="https://github.com/San896/WheatherApp"><BsGithub className={style.gh}/></a>
               <a href="https://wheathersf.netlify.app/"><RiGlobalFill className={style.ln}/></a></h5>
             <p class="card-text">
               {" "}
-              Single Page Aplication(SPA) sobre el clima, se puede buscar ciudades y ver sus pronosticos de su clima
+              Single Page Aplication(SPA) sobre el clima, se puede buscar ciudades y ver los pronosticos de su clima
             </p>
             <p class="card-text">
               <small class="text" style={{color: 'darkgrey'}}>
@@ -154,6 +157,11 @@ function Proyects() {
       </div>
     </div>
 
+<div className={style.divbtn}>
+
+    <Link to= '/contact'><button className={style.btn}> Contactame <AiOutlineArrowRight/> </button></Link>
+</div>
+<h1 className={style.title2}>  </h1>
 
     </div>
   );
