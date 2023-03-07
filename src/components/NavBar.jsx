@@ -9,11 +9,11 @@ function NavBar() {
 
   return (
     <div className={style.navbar}>
-      <Link to='/'><button className={ style.btn} > Welcome </button></Link>
-        <Link to='/about'> <button className={ style.btn} >  About Me </button>  </Link>
-        <Link to='/exp'> <button className={style.btn} > Experience </button> </Link>
-        <Link to='/proyects'> <button className={ style.btn }> Proyects </button> </Link>
-        <Link to='/contact'> <button className={ style.btn } > Contact Me! </button> </Link>
+      <Link to='/'><button className={ style.btn} > Bienvenido/a </button></Link>
+        <Link to='/about'> <button className={ style.btn} >  Sobre Mi </button>  </Link>
+        <Link to='/exp'> <button className={style.btn} > Experiencia </button> </Link>
+        <Link to='/proyects'> <button className={ style.btn }> Proyectos </button> </Link>
+        <Link to='/contact'> <button className={ style.btn } > Contactame ! </button> </Link>
     </div>
   );
 }
