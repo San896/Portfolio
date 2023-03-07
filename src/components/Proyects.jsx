@@ -140,7 +140,7 @@ function Proyects() {
         
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Athenas APP
+            <h5 class="card-title">Wheather APP
              <a href="https://github.com/San896/WheatherApp"><BsGithub className={style.gh}/></a>
               <a href="https://wheathersf.netlify.app/"><RiGlobalFill className={style.ln}/></a></h5>
             <p class="card-text">
