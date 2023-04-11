@@ -26,7 +26,7 @@ function Proyects() {
         height: "13.5rem",
         position: "absolute",
         left: "10rem",
-        top: "37.8rem",
+        top: "36.5rem",
         backgroundColor: "transparent",
           
         }}
