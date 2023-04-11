@@ -1,7 +1,8 @@
 import React from "react";
-import Landing from "../images/Landing.png";
+import Landing from "../images/LANDF.png";
 import LandAthenas from "../images/LandAthenas.png";
 import Wheather from '../images/wheather.png'
+
  import style from "./Proyects.module.css";
  import { BsGithub } from "react-icons/bs";
  //import { SiLinkedin } from "react-icons/si";
@@ -20,13 +21,13 @@ function Proyects() {
       
         class="card mb-3"
         style={{
-            display: "flex",
-            width: "70rem",
-          height: "13.5rem",
-          position: "absolute",
-          left: "10rem",
-          top: "22rem",
-          backgroundColor: "transparent",
+          display: "flex",
+          width: "70rem",
+        height: "13.5rem",
+        position: "absolute",
+        left: "10rem",
+        top: "37.8rem",
+        backgroundColor: "transparent",
           
         }}
         
@@ -95,7 +96,7 @@ function Proyects() {
               <p class="card-text">
                 {" "}
                 App sobre recetas de comida. Podes buscar varias recetas,
-                ordenarlas y filtrarlas, tambien podes crear tus propias
+                ordenarlas, filtrarlas y crear tus propias
                 recetas.
               </p>
               <p class="card-text">
@@ -116,13 +117,14 @@ function Proyects() {
       
       class="card mb-3"
       style={{
-          display: "flex",
-          width: "70rem",
-        height: "12.1rem",
-        position: "absolute",
-        left: "10rem",
-        top: "37.8rem",
-        backgroundColor: "transparent",
+
+        display: "flex",
+        width: "70rem",
+      height: "12.1rem",
+      position: "absolute",
+      left: "10rem",
+      top: "22rem",
+      backgroundColor: "transparent",
         
       }}
       
