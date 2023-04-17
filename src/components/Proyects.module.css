@@ -3,10 +3,10 @@
     position: absolute;
     justify-content: flex-end;
     right: 5rem;
-    top: 2rem;
+    top: 3rem;
     background-color: rgba(128, 128, 128, 0);
-    width: 60rem;
-    border-bottom: 2px solid black ;
+    width: 35rem;
+    border-bottom: 1.5px solid black ;
    
 }
 .title2 {
@@ -27,11 +27,15 @@
     position: absolute;
     left: 40rem;
     color: black;
+
+    transform: translate(-1px, -1px); 
+    transition: transform 0.5s ease;
 }
 
 .gh:hover {
-    width: 2rem;
-    height: 2rem;
+    transform: translate(-3px, -3px);
+    /* box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.9); */
+    
 }
 
 .ln{
@@ -41,30 +45,39 @@
     left: 45rem;
     top: 15px;
     color: black;
+
+    transform: translate(-1px, -1px); 
+    transition: transform 0.5s ease;
 }
 
 .ln:hover {
-    width: 2rem;
-    height: 2rem;
+    transform: translate(-3px, -3px);
+    /* box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.9); */
 }
 
 .btn {
     border-radius: 5px;
     border: 1px solid rgba(20, 20, 20, 0.733);
     background-color: transparent;
-    
+    transform: translate(-1px, -1px); 
+    transition: transform 0.5s ease;
 }
 
 .btn:hover{
-    width: 8rem;
-    height: 2rem ;
+    transform: translate(-3px, -3px);
+    box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.9);
 }
 
 .divbtn{
     display: flex;
     position: absolute;
-    
+   justify-content: flex-end;
+   
+    top: 54rem;
     left: 68rem;
-    top: 51rem;
-    margin-bottom: 2rem;
+    
+    padding-bottom: 1rem;
+
+
 }
+

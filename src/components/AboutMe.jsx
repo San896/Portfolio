@@ -10,7 +10,7 @@ function AboutMe() {
         <h1 className={style.title}> Santiago Fernandez </h1>
       
 
-<div class="card mb-3" style={{width: '80rem', backgroundColor:'transparent', display: 'flex', position: 'absolute', left:'9rem', top:'10rem'}}>
+<div class="card mb-3" style={{width: '85vw', backgroundColor:'transparent', display: 'flex', position: 'absolute', left:'4rem', top:'12rem'}}>
 
 <div class="row g-0">
 
@@ -20,7 +20,7 @@ function AboutMe() {
       <h2 class="card-title">Sobre mi</h2>
       <p class="card-text">Mi nombre es Santiago, tengo 26 años, soy un Desarrolador Web Full Stack Jr. Me instrui en el bootcamp de SoyHenry, un curso intensivo con +800 hrs de practica y muchos proyectos.<br/>
           Como Full-Stack me desenvuelvo bien tanto en Front-End, Back-End como en manejo de Base de Datos, no tengo ninguna preferencia al momento de elegir. Soy bueno resolviendo problemas, encarando desafios nuevos, trabajando en equipo con metodologias agiles como SCRUM.<br/>
-          Personalmente me encantan los animales, tengo como hobbies hacer ejercicio y jugar al futbol con amigos, me considero una persona paciente y con mucha resiliencia . Actualmente me ecnuentro trabajando en algunos proyectos, estudiando tecnologias nuevas y mejorando las aprendidas. Estoy en busca de empleo IT, preferentemente remoto pero escucho cualquier oferta.</p>
+          Personalmente me encantan los animales, tengo como hobbies hacer ejercicio y jugar al futbol con amigos, me considero una persona paciente y con mucha resiliencia . Actualmente  estoy en busca de empleo IT, me ecnuentro trabajando en algunos proyectos, estudiando tecnologias nuevas y mejorando las aprendidas.</p>
       <p class="card-text"><small class="text" style={{color: 'darkgrey'}}> Full Stack Web Developer</small></p>
     </div>
     
@@ -30,7 +30,7 @@ function AboutMe() {
   </div>
 </div>
 </div>
-  <Link to= '/exp'><button className={style.btn}> continuar <AiOutlineArrowRight/> </button></Link>
+  <Link to= '/proyects'><button className={style.btn}> Proyectos <AiOutlineArrowRight/> </button></Link>
 </div>
     );
 }

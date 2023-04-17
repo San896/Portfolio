@@ -16,7 +16,7 @@ function Contact() {
 
     return (
       <div>
-        <h1 className={style.title}>Contact Me</h1>
+        <h1 className={style.title}>Contact</h1>
         <h5 className={style.mail1}> My Email: sannlfernandez8@gmail.com </h5>
         <form onSubmit={handleSubmit} className={style.form}>
 

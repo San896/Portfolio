@@ -26,7 +26,7 @@ function Proyects() {
         height: "13.5rem",
         position: "absolute",
         left: "10rem",
-        top: "36.5rem",
+        top: "39rem",
         backgroundColor: "transparent",
           
         }}
@@ -75,7 +75,7 @@ function Proyects() {
           height: "12rem",
           position: "absolute",
           left: "10rem",
-          top: "8rem",
+          top: "10rem",
           backgroundColor: "transparent",
         }}
       >
@@ -123,7 +123,7 @@ function Proyects() {
       height: "12.1rem",
       position: "absolute",
       left: "10rem",
-      top: "22rem",
+      top: "24rem",
       backgroundColor: "transparent",
         
       }}
@@ -163,7 +163,7 @@ function Proyects() {
 
     <Link to= '/contact'><button className={style.btn}> Contactame <AiOutlineArrowRight/> </button></Link>
 </div>
-<h1 className={style.title2}>  </h1>
+
 
     </div>
   );

@@ -1,50 +1,40 @@
 .navbar{
     display: flex;
-    position: fixed;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
+    /* position: fixed; */
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items:flex-end ;
+    /* align-content: flex-end; */
     
-    gap: 6rem;
-   
-    background-color: rgba(0, 0, 0, 0.63);
+    width: 50%;
+    height: 4rem;
+z-index: 1;
+    gap: 3rem;
+   border-bottom: 1px solid rgb(37, 37, 37);
+    /* background-color: rgba(160, 160, 160, 0.329); */
     
 }
 
 .btn{
     border: none;
     background-color: transparent;
-    color: rgba(202, 202, 202, 0.808);
+    color: rgba(0, 0, 0, 0.993);
     
 }
 
 .btn:hover{
-  color: rgb(247, 247, 247);
+  color: rgba(247, 247, 247, 0.877);
     transition: all 1s;
     
 }
 
-.icon {
-    display: flex;
-    position: absolute;
-    color: rgba(255, 255, 255, 0.808);
-    top: 1rem;
-    left: 0.3rem;
-    width: 3rem;
-    height: 1.3rem;
-}
 
-.icon:hover{
-    color: grey;
-      transition: all 1s;
-      
-  }
 
-.div{
+/* .div{
     display: flex;
     position: absolute;
     top: 0.2rem;
     left: 0.2rem
-}
+} */
 
 

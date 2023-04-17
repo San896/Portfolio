@@ -6,9 +6,9 @@ function Exp(props) {
   return (
     <div>
 
-<h1 className={style.title}> Experience</h1>
+<h1 className={style.title}> Experiencia</h1>
     
-    <div class="card text-center" style={{display:'flex', width:'70rem', left:'9rem', top:'10rem', backgroundColor:'transparent' }}>
+    <div class="card text-center" style={{display:'flex', width:'75vw', left:'9rem', top:'10rem', backgroundColor:'transparent' }}>
         
 
       

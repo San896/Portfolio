@@ -1,21 +1,21 @@
 .home {
     display: flex;
     flex-direction: column;
-    margin-left: 9rem;
+    margin-left: 13rem;
     justify-content: center;
     gap: 5rem;
-    padding-top: 10rem;
+    padding-top: 8rem;
 }
 
 .title {
     display: flex;
     position: absolute;
     justify-content: flex-end;
-    right: 5rem;
-    top: 5rem;
+    right: 3rem;
+    top: 4rem;
     background-color: rgba(128, 128, 128, 0);
-    width: 60rem;
-    border-bottom: 2px solid black ;
+    width: 30rem;
+    border-bottom: 1.5px solid black ;
    
 } 
 .btn {
@@ -24,11 +24,13 @@
     border-color: rgb(95, 95, 95);
     
     position: absolute;
-    left: 45rem;
-    bottom: 8rem;
+    left: 55rem;
+    bottom: 5rem;
+    transform: translate(-50px, -40px); 
+    transition: transform 0.8s ease;
 }
 
 .btn:hover{
-    width: 8rem;
-    height: 2rem ;
+    transform: translate(-50px, -50px);
+    box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.9);
 }
