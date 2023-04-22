@@ -5,7 +5,7 @@
     right: 5rem;
     top: 3rem;
     background-color: rgba(128, 128, 128, 0);
-    width: 35rem;
+    width: 35%;
     border-bottom: 1.5px solid black ;
    
 }
@@ -73,8 +73,8 @@
     position: absolute;
    justify-content: flex-end;
    
-    top: 54rem;
-    left: 68rem;
+    top: 135%;
+    right: 15%;
     
     padding-bottom: 1rem;
 

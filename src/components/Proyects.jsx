@@ -22,10 +22,10 @@ function Proyects() {
         class="card mb-3"
         style={{
           display: "flex",
-          width: "70rem",
+          width: "80vw",
         height: "13.5rem",
         position: "absolute",
-        left: "10rem",
+        left: "10%",
         top: "39rem",
         backgroundColor: "transparent",
           
@@ -71,10 +71,10 @@ function Proyects() {
         class="card mb-3"
         style={{
           display: "flex",
-          width: "70rem",
+          width: "80vw",
           height: "12rem",
           position: "absolute",
-          left: "10rem",
+          left: "10%",
           top: "10rem",
           backgroundColor: "transparent",
         }}
@@ -119,10 +119,10 @@ function Proyects() {
       style={{
 
         display: "flex",
-        width: "70rem",
+        width: "80vw",
       height: "12.1rem",
       position: "absolute",
-      left: "10rem",
+      left: "10%",
       top: "24rem",
       backgroundColor: "transparent",
         
