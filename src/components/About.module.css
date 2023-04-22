@@ -26,11 +26,11 @@
     left: 65rem;
     bottom: 2rem;
 
-    transform: translate(-15px, -15px); 
+    transform: translate(-10px, -15px); 
     transition: transform 0.8s ease;
 }
 
 .btn:hover{
-    transform: translate(-5px, -5px);
+    transform: translate(-10px, -10px);
     box-shadow: 1px 1px 5px rgba(15, 15, 15, 0.9);
 }
