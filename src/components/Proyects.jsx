@@ -23,7 +23,7 @@ function Proyects() {
         style={{
           display: "flex",
           width: "80vw",
-        height: "13.5rem",
+        height: "fit-content",
         position: "absolute",
         left: "10%",
         top: "39rem",
@@ -39,7 +39,7 @@ function Proyects() {
               src={LandAthenas}
               class="img-fluid rounded-start"
               alt="..."
-              style={{ height: "13.4rem" }}
+              style={{ height: "14rem" }}
             />
           </div>
           

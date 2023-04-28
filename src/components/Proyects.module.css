@@ -73,8 +73,8 @@
     position: absolute;
    justify-content: flex-end;
    
-    top: 135%;
-    right: 15%;
+    top: 135vh;
+    right: 15vw;
     
     padding-bottom: 1rem;
 

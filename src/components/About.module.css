@@ -22,8 +22,8 @@
     background-color: transparent;
     
     position: absolute;
-    left: 75%;
-    bottom: 5%;
+    left: 75vw;
+    bottom: 9vh;
 
     transform: translate(-10px, -15px); 
     transition: transform 0.8s ease;
