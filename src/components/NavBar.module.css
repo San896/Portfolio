@@ -6,7 +6,7 @@
     align-items:flex-end ;
     /* align-content: flex-end; */
     
-    width: 50vw;
+    width: 52vw;
     height: 5rem;
     
     gap: 4vw;
@@ -21,6 +21,8 @@
     color: rgba(0, 0, 0, 0.993);
     font-weight: 500;
     width: fit-content;
+    height: fit-content;
+
     
 }
 

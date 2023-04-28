@@ -10,7 +10,7 @@ function AboutMe() {
         <h1 className={style.title}> Santiago Fernandez </h1>
       
 
-<div class="card mb-3" style={{width: '90vw', backgroundColor:'transparent', display: 'flex', position: 'absolute', left:'4rem', top:'25vh'}}>
+<div class="card mb-3" style={{width: '90vw', border:'none', backgroundColor:'transparent', display: 'flex', position: 'absolute', left:'4rem', top:'25vh'}}>
 
 <div class="row g-0">
 
@@ -26,7 +26,7 @@ function AboutMe() {
     
   </div>
     <div class="col-md-4">
-    <img src= { foto }  alt="..." style={{width:'22vw', height:'fit-content', borderRadius:'999px'}}/>
+    <img src= { foto }  alt="..." style={{ height:'50vh', borderRadius:'999px'}}/>
   </div>
 </div>
 </div>
