@@ -9,7 +9,7 @@
     width: 52vw;
     height: 5rem;
     
-    gap: 4vw;
+    gap: 3vw;
    border-bottom: 1px solid rgb(37, 37, 37);
     /* background-color: rgba(160, 160, 160, 0.329); */
     
@@ -17,11 +17,10 @@
 
 .navbar button{
     border: none;
-    background-color: transparent;
+    background-color: transparent ;
     color: rgba(0, 0, 0, 0.993);
     font-weight: 500;
-    width: fit-content;
-    height: fit-content;
+    width:7vw;
 
     
 }

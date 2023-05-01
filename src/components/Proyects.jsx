@@ -23,7 +23,7 @@ function Proyects() {
         style={{
           display: "flex",
           width: "80vw",
-        height: "34vh",
+        height: "fit-content",
         position: "absolute",
         left: "10%",
         top: "39rem",
@@ -39,7 +39,7 @@ function Proyects() {
               src={LandAthenas}
               class="img-fluid rounded-start"
               alt="..."
-              style={{ height: "34vh" }}
+              style={{ height: "fit-content" }}
             />
           </div>
           
@@ -48,7 +48,7 @@ function Proyects() {
               <h5 class="card-title">Athenas APP
                <a href="https://github.com/MATarg81/proyecto-final"><BsGithub className={style.gh}/></a>
                 <a href="https://proyecto-final-one-murex.vercel.app"><RiGlobalFill className={style.ln}/></a></h5>
-              <p class="card-text">
+              <p class="card-text" >
                 {" "}
                 Single Page Aplication(SPA). Cuenta con un e-commerce integrado, pasarela de pagos de mercado pago, autenticacion de usuarios con Auth0, dashboard para el administrador y usuarios. Creacion y organizacion de productos, imagenes en Cloudinary, reviews de los productos entre muchas mas funcionalidades, etc.
               </p>
