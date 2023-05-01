@@ -4,11 +4,12 @@
     flex-direction: row;
  
     align-items:flex-end ;
+
   
     width: 52vw;
     height: 5rem;
     
-    gap: 3vw;
+    gap: 2vw;
    border-bottom: 1px solid rgb(37, 37, 37);
     /* background-color: rgba(160, 160, 160, 0.329); */
     
