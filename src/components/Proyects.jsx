@@ -39,7 +39,7 @@ function Proyects() {
               src={LandAthenas}
               class="img-fluid rounded-start"
               alt="..."
-              style={{ height: "fit-content" }}
+              style={{ height: "36vh" }}
             />
           </div>
           
