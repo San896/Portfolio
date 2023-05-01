@@ -23,7 +23,7 @@ function Proyects() {
         style={{
           display: "flex",
           width: "80vw",
-        height: "37vh",
+        height: "37.5vh",
         position: "absolute",
         left: "10%",
         top: "39rem",
